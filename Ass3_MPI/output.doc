@@ -1,0 +1,62 @@
+sahil@sahil:~/Downloads$ export MPJ_HOME=/home/sahil/Downloads/mpj-v0_44
+
+sahil@sahil:~/Downloads$ javac -cp $MPJ_HOME/lib/mpj.jar ArrSum.java
+
+sahil@sahil:~/Downloads$ $MPJ_HOME/bin/mpjrun.sh -np 4 ArrSum
+
+MPJ Express (0.44) is started in the multicore configuration
+
+Enter 20 elements
+
+Element 0	 = 0
+
+Element 1	 = 1
+
+Element 2	 = 2
+
+Element 3	 = 3
+
+Element 4	 = 4
+
+Element 5	 = 5
+
+Element 6	 = 6
+
+Element 7	 = 7
+
+Element 8	 = 8
+
+Element 9	 = 9
+
+Element 10	 = 10
+
+Element 11	 = 11
+
+Element 12	 = 12
+
+Element 13	 = 13
+
+Element 14	 = 14
+
+Element 15	 = 15
+
+Element 16	 = 16
+
+Element 17	 = 17
+
+Element 18	 = 18
+
+Element 19	 = 19
+
+Intermediate sum at process 3 is 85
+
+Intermediate sum at process 1 is 35
+
+Intermediate sum at process 0 is 10
+
+Intermediate sum at process 2 is 60
+
+Final sum : 190
+
+sahil@sahil:~/Downloads$ 
+

@@ -1,0 +1,32 @@
+(base) PS E:\8th Sem\LP-V_Program\LP-V_Program\Ass6> javac Bully.java
+(base) PS E:\8th Sem\LP-V_Program\LP-V_Program\Ass6> java Bully
+
+5 active process are:
+Process up  = p1 p2 p3 p4 p5
+Process 5 is coordinator
+.........
+1) Up a process.
+2) Down a process
+3) Send a message
+4) Exit
+4
+
+
+
+
+(base) PS E:\8th Sem\LP-V_Program\LP-V_Program\Ass6> javac Ring.java
+
+(base) PS E:\8th Sem\LP-V_Program\LP-V_Program\Ass6> java Ring
+Enter the number of process : 
+2
+Enter the id of process :
+5
+Enter the id of process :
+3
+  [0] 3  [1] 5
+ process 5select as co-ordinator
+
+ 1.election 2.quit
+2
+Program terminated ...
+(base) PS E:\8th Sem\LP-V_Program\LP-V_Program\Ass6> 

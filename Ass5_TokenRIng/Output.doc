@@ -1,0 +1,23 @@
+(base) PS E:\8th Sem\LP-V_Program\LP-V_Program> cd Ass5
+(base) PS E:\8th Sem\LP-V_Program\LP-V_Program\Ass5> javac TokenRing.java
+(base) PS E:\8th Sem\LP-V_Program\LP-V_Program\Ass5> java TokenRing
+Enter Number Of Nodes You Want In The Ring : 9
+Ring Formed Is As Below: 
+0 1 2 3 4 5 6 7 8 0
+Enter Sender : 2
+Enter Receiver : 8
+Enter Data To Send : 69
+Token Passing :  0-> 1-> 2
+Sender:2 Sending Data: 69
+Data: 69 Forwarded By: 2
+Data: 69 Forwarded By: 3
+Data: 69 Forwarded By: 4
+Data: 69 Forwarded By: 5
+Data: 69 Forwarded By: 6
+Data: 69 Forwarded By: 7
+Receiver: 8 Received The Data: 69
+Do You Want To Send Data Again? If YES Enter 1, If NO Enter 0: 0
+
+This cycle will continue indefinitely, with each process taking its turn to enter 
+the critical section based on the token passing mechanism. The output will reflect 
+this cyclic behavior of the processes.

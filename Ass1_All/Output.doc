@@ -1,0 +1,14 @@
+1st Terminal:
+1) cd PATH
+2)javac ServerIntf.java
+javac ServerImpl.java
+javac Server.java
+javac Client.java
+
+2nd Terminal:
+1)start rmiregistry
+2)java Server
+
+3rd Terminal:
+1)java Client
+

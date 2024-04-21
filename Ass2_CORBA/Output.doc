@@ -1,0 +1,55 @@
+Terminal 1:
+
+sahil@sahil:~/Downloads/CORBA$ idlj -fall HelloModule.idl
+
+sahil@sahil:~/Downloads/CORBA$ javac *.java HelloModule/*.java
+
+HelloModule/_HelloStub.java:46: warning: IORCheckImpl is internal proprietary API and may be removed in a future release
+
+     com.sun.corba.se.impl.orbutil.IORCheckImpl.check(str, "HelloModule._HelloStub");
+
+                                  ^
+
+Note: HelloModule/HelloPOA.java uses unchecked or unsafe operations.
+
+Note: Recompile with -Xlint:unchecked for details.
+
+1 warning
+
+sahil@sahil:~/Downloads/CORBA$ orbd -ORBInitialPort 1050&
+
+[1] 11826
+
+sahil@sahil:~/Downloads/CORBA$ java Server -ORBInitialPort 1050& -ORBInitialHost localhost&
+
+[2] 11841
+
+[3] 11842
+
+sahil@sahil:~/Downloads/CORBA$ -ORBInitialHost: command not found
+
+Ready
+
+Step 1
+
+Step 2
+
+Step 3
+
+Step 4
+
+Server Ready....
+
+
+Terminal 2:
+
+sahil@sahil:~/Downloads/CORBA$ java Client -ORBInitialPort 1050 -ORBInitialHost localhost
+
+Enter your name: 
+
+Sahil
+
+Hello Sahil
+
+sahil@sahil:~/Downloads/CORBA$ 
+

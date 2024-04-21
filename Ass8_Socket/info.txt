@@ -1,0 +1,13 @@
+Commands To Execute Assignment-8:
+
+	On Terminal:
+	javac Server.java Client.java
+
+	On Terminal-1:
+		java Server
+
+	On Terminal-2:
+		java Client
+
+
+
